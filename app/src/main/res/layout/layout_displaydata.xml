@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cardView"
+    android:background="@color/cardview_dark_background"
+    android:layout_margin="20dp"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_countryname"
+        android:text="countryname"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_countrycapital"
+        android:layout_below="@+id/txt_countryname"
+        android:text="countrycapital"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        ></TextView>
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:id="@+id/img_countryflag"
+        android:layout_below="@+id/txt_countrycapital"
+        android:text="countryflag"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        ></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_countryflag"
+        android:id="@+id/txt_region"
+        android:text="region"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_subregion"
+        android:layout_below="@+id/txt_region"
+        android:text="subregion"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_population"
+        android:layout_below="@+id/txt_subregion"
+        android:text="population"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_borders"
+        android:layout_below="@+id/txt_population"
+        android:text="borders"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_language"
+        android:layout_below="@+id/txt_borders"
+        android:text="language"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        ></TextView>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+</RelativeLayout>
